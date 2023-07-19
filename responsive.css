@@ -26,12 +26,15 @@
         height: auto;
     }
 
-    .right-container {
+    /* .right-container {
         padding: 30px;
-    }
+    } */
 
     .right-img {
-        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .banner-left {
@@ -74,7 +77,7 @@
         margin-top: 30px;
     }
 
-    .card{
+    .card {
         margin: 0;
     }
 
@@ -108,7 +111,8 @@
 
     .left-3-title {
         text-align: center;
-        font-size: 3rem;
+        font-size: 1.88rem;
+        line-height: 2.8rem;
     }
 
     .left-3-description {
@@ -120,7 +124,8 @@
 
     img.parent {
         margin-left: 51px;
-        width: 351px;
+        max-width: 100%;
+        height: auto;
     }
 
     .right-3-child {
@@ -136,7 +141,7 @@
     .games-container {
         margin-bottom: 80px;
         display: grid;
-        grid-template-columns: repeat(3,0.5fr);
+        grid-template-columns: repeat(3, 0.5fr);
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -144,19 +149,19 @@
 
     .footer-list ul {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 50px;
         margin: 40px 0;
     }
 
     .footer-icon {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .list-last ul {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .footer-copy {
@@ -346,4 +351,5 @@
 /* @media (max-width: 992px) {} */
 
 /* Extra-large devices (large desktops, 1200px and up) */
-/* @media (max-width: 1200px) {} */ */
+/* @media (max-width: 1200px) {} */
+*/
