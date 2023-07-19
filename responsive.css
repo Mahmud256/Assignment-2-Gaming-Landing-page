@@ -1,7 +1,7 @@
 /* Responsive Styles */
 
 /* Small devices (phones, 576px and up) */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
     body {
         background: #FFF;
     }
@@ -19,7 +19,83 @@
         gap: 30px;
         flex-direction: column;
     }
-  
+
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: auto;
+    }
+
+    .right-container {
+        padding: 30px;
+    }
+
+    .right-img {
+        width: 100%;
+    }
+
+    .banner-left {
+        width: -webkit-fill-available;
+        background-image: url(./images/Group\ 14.png);
+        background-size: cover;
+
+    }
+
+    .banner-2 {
+        background: #fff;
+    }
+
+    .banner2-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-2-right {
+        text-align: center;
+    }
+
+    .banner-2-description {
+        text-align: center;
+    }
+
+    .purpose {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .unless {
+        font-size: 1.5rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .card{
+        margin: 0;
+    }
+
+    .card-description {
+        width: auto;
+        text-align: center;
+        font-size: 0.56rem;
+    }
+
+    .funny-title {
+        text-align: center;
+        font-size: 1.87rem;
+        font-weight: 700;
+    }
+
+    .funny-description {
+        text-align: center;
+        font-size: 0.7rem;
+        line-height: 1.875rem;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -41,15 +117,11 @@
         gap: 30px;
         flex-direction: column;
     }
-    
+
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {
-    
-}
+@media (max-width: 992px) {}
 
 /* Extra-large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
-    
-}
+@media (max-width: 1200px) {}

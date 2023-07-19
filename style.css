@@ -134,7 +134,7 @@ nav li {
 }
 
 .btn-two {
-    background-color: #534c64;
+    background-color: #4EC5F7;
     margin-top: 41px;
 }
 
@@ -391,3 +391,7 @@ img.parent {
 }
 
 /* ----------Footer---------- */
+
+.hide{
+    display: none;
+}
