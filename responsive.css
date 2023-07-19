@@ -26,9 +26,12 @@
         height: auto;
     }
 
-    /* .right-container {
-        padding: 30px;
-    } */
+    
+
+    .left-container, .right-container {
+        padding-top: 0;
+        padding-left: 0;
+    }
 
     .right-img {
         max-width: 100%;
@@ -352,4 +355,3 @@
 
 /* Extra-large devices (large desktops, 1200px and up) */
 /* @media (max-width: 1200px) {} */
-*/
