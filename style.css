@@ -16,6 +16,15 @@ body {
     padding: 15px 80px;
 }
 
+.btn-primary {
+    padding: 21px 35px;
+    background-color: #F948B2;
+    font-size: 1.4rem;
+    border-radius: 48px;
+    border: 0;
+    color: white;
+}
+
 /* ----------Gloval---------- */
 
 /* ----------Navbar---------- */
@@ -74,17 +83,21 @@ nav li {
 .banner {
     display: flex;
     justify-content: space-between;
+    height: 100vh;
+    width: 94%;
 }
 
 .banner-left {
-    width: -webkit-fill-available;
+    padding-right: 370px;
+    /* width: 435px; */
     background-image: url(./images/Group\ 14.png);
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    float: left;
 }
 
 .left-container {
@@ -115,23 +128,12 @@ nav li {
 }
 
 .btn-one {
-    padding: 21px 40px;
-    background-color: #F948B2;
-    font-size: 1.4rem;
-    border-radius: 48px;
-    border: 0;
-    color: white;
-    margin-right: 24px;
+    margin-right: 2px;
     margin-top: 41px;
 }
 
 .btn-two {
-    padding: 21px 40px;
-    font-size: 1.4rem;
-    border-radius: 48px;
-    background: #534c64;
-    border: 0;
-    color: white;
+    background-color: #534c64;
     margin-top: 41px;
 }
 
@@ -141,8 +143,156 @@ nav li {
 }
 
 .right-img {
-    width: 470px;
-    height: 100vh;
+    width: 100%;
+    height: 98vh;
 }
+
+.left-image {
+    width: 90%;
+}
+
+.banner-2 {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.banner2-container {
+    display: flex;
+    align-items: center;
+}
+
+.banner-2-right {
+    text-align: right;
+    max-width: 500px;
+}
+
+.banner-2-description {
+    max-width: 600px;
+    color: #534C64;
+    text-align: right;
+    font-size: 1.063rem;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.btn-three {
+    margin: 15px 0;
+}
+
+.purpose {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+}
+
+.unless {
+    color: #534C64;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.wrgamer {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.funny {
+    margin: 90px 0;
+}
+
+.funny-title {
+    text-align: center;
+    color: #0B0223;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.funny-video {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny-description {
+    text-align: center;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+}
+
+.card img {
+    width: 279px;
+}
+
+.card-description {
+    width: 270px;
+}
+
+.card {
+    margin: 30px 0;
+}
+
+.banner-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* align-items: center; */
+}
+
+.left-3 {
+    margin: 220px auto;
+}
+
+.left-3-title {
+    max-width: 341px;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    /* 125% */
+}
+
+.left-3-description {
+    max-width: 347px;
+    color: #534C64;
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    /* 166.667% */
+}
+
+.play-ins {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img.parent {
+    margin-left: 158px;
+}
+
+.right-3-child {
+    width: 321px;
+    position: relative;
+    bottom: 285px;
+}
+
+
 
 /* ----------Main---------- */
