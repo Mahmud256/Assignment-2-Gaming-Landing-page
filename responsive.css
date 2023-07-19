@@ -53,6 +53,10 @@
         margin-left: 30px;
     }
 
+    p.banner-list {
+        display: flex;
+    }
+
     .banner-2 {
         background: #fff;
     }

@@ -106,6 +106,10 @@ nav li {
     padding-left: 80px;
 }
 
+p.banner-list {
+    display: flex;
+}
+
 .play {
     color: #0B0223;
     /* text-align: center; */
