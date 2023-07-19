@@ -159,6 +159,14 @@
         grid-template-columns: repeat(2,1fr);
     }
 
+    .footer-copy {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        max-width: 238px;
+    }
+
 
 
 }
@@ -182,6 +190,155 @@
         gap: 30px;
         flex-direction: column;
     }
+
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: auto;
+    }
+
+    .right-container {
+        padding: 30px;
+    }
+
+    .right-img {
+        width: 100%;
+    }
+
+    .banner-left {
+        width: -webkit-fill-available;
+        background-image: url(./images/Group\ 14.png);
+        background-size: cover;
+
+    }
+
+    .banner-2 {
+        background: #fff;
+    }
+
+    .banner2-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-2-right {
+        text-align: center;
+    }
+
+    .banner-2-description {
+        text-align: center;
+    }
+
+    .purpose {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .unless {
+        font-size: 1.5rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .card{
+        margin: 0;
+    }
+
+    .card-description {
+        width: auto;
+        text-align: center;
+        font-size: 0.56rem;
+    }
+
+    .funny-title {
+        text-align: center;
+        font-size: 1.87rem;
+        font-weight: 700;
+    }
+
+    .funny-description {
+        text-align: center;
+        font-size: 0.7rem;
+        line-height: 1.875rem;
+    }
+
+    .banner-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .left-3-title {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .left-3-description {
+        max-width: max-content;
+        color: #534C64;
+        text-align: center;
+        font-size: 0.99rem;
+    }
+
+    img.parent {
+        margin-left: 51px;
+        width: 351px;
+    }
+
+    .right-3-child {
+        width: 220px;
+        position: relative;
+        bottom: 156px;
+    }
+
+    img.child {
+        width: 70%;
+    }
+
+    .games-container {
+        margin-bottom: 80px;
+        display: grid;
+        grid-template-columns: repeat(3,0.5fr);
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-list ul {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 50px;
+        margin: 40px 0;
+    }
+
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .list-last ul {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .footer-copy {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        max-width: 238px;
+    }
+
+
 
 }
 
