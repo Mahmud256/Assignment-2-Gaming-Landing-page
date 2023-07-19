@@ -304,19 +304,12 @@ img.parent {
     border-radius: 50px;
 }
 
-.btn-first-line {
+.games-container {
+    margin-bottom: 80px;
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    text-align: center;
-}
-
-.btn-second-line {
-    display: flex;
-    gap: 1rem;
-    margin: 0 40px;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .games-content {

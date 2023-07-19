@@ -96,6 +96,71 @@
         line-height: 1.875rem;
     }
 
+    .banner-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .left-3-title {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .left-3-description {
+        max-width: max-content;
+        color: #534C64;
+        text-align: center;
+        font-size: 0.99rem;
+    }
+
+    img.parent {
+        margin-left: 51px;
+        width: 351px;
+    }
+
+    .right-3-child {
+        width: 220px;
+        position: relative;
+        bottom: 156px;
+    }
+
+    img.child {
+        width: 70%;
+    }
+
+    .games-container {
+        margin-bottom: 80px;
+        display: grid;
+        grid-template-columns: repeat(3,0.5fr);
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-list ul {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 50px;
+        margin: 40px 0;
+    }
+
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .list-last ul {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
