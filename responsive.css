@@ -189,6 +189,11 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .footer-list ul a {
+        color: #fff;
+        font-size: 9px;
+    }
+
     .footer-copy {
         color: rgba(255, 255, 255, 0.60);
         text-align: center;
