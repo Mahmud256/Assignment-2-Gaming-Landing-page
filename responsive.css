@@ -55,6 +55,7 @@
 
     p.banner-list {
         display: flex;
+        margin-left: 20px;
     }
 
     .banner-2 {
