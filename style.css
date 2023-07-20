@@ -316,6 +316,7 @@ img.parent {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 14px;
 }
 
 .games-content {

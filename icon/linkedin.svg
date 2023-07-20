@@ -1,7 +1,9 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg fill="#ffffff" width="64px" height="64px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier"> <path d="M8.268 28h-5.805v-18.694h5.805zM5.362 6.756c-1.856 0-3.362-1.538-3.362-3.394s1.505-3.362 3.362-3.362 3.362 1.505 3.362 3.362c0 1.856-1.506 3.394-3.362 3.394zM29.994 28h-5.792v-9.1c0-2.169-0.044-4.95-3.018-4.95-3.018 0-3.481 2.356-3.481 4.794v9.256h-5.799v-18.694h5.567v2.55h0.081c0.775-1.469 2.668-3.019 5.492-3.019 5.875 0 6.955 3.869 6.955 8.894v10.269z"/> </g>
-</svg>
+<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="linkedin 1">
+<g id="_x31_0.Linkedin">
+<path id="Vector" d="M36.1216 36.8336V36.8324H36.1296V25.0964C36.1296 19.3552 34.8936 14.9324 28.1816 14.9324C24.9548 14.9324 22.7896 16.7032 21.9056 18.3816H21.8124V15.4684H15.4484V36.8324H22.0752V26.2536C22.0752 23.4684 22.6032 20.7748 26.0524 20.7748C29.4512 20.7748 29.5016 23.9536 29.5016 26.432V36.8336H36.1216Z" fill="white"/>
+<path id="Vector_2" d="M4.65761 15.4695H11.2924V36.8335H4.65761V15.4695Z" fill="white"/>
+<path id="Vector_3" d="M7.97241 4.8335C5.85081 4.8335 4.12961 6.5547 4.12961 8.6763C4.12961 10.7979 5.85081 12.5551 7.97241 12.5551C10.094 12.5551 11.8152 10.7979 11.8152 8.6763C11.8136 6.5547 10.0924 4.8335 7.97241 4.8335Z" fill="white"/>
+</g>
+</g>
+</svg>
