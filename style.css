@@ -242,7 +242,12 @@ p.banner-list {
     gap: 24px;
 }
 
-.card img {
+.playb {
+    display: block;
+    width: 50%;
+}
+
+.gallery {
     width: 100%;
 }
 
@@ -259,12 +264,6 @@ p.banner-list {
     display: inline-block;
     border-radius: 5px;
     overflow: hidden;
-}
-
-.image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 .overlay {
