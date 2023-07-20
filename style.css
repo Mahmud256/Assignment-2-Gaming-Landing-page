@@ -87,11 +87,11 @@ nav li {
 }
 
 .banner-left {
-    margin-left: -110px;
+    /* margin-left: -110px; */
     width: 60%;
     height: 100vh;
     background-image: url(./images/Group\ 14.png);
-    background-size: cover;
+    background-size: 700px 700px;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -103,7 +103,7 @@ nav li {
 }
 
 .banner-content {
-    margin-left: 150px;
+    margin-left: 47px;
 }
 
 
