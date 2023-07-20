@@ -26,9 +26,10 @@
         height: auto;
     }
 
-    
 
-    .left-container, .right-container {
+
+    .left-container,
+    .right-container {
         padding-top: 0;
         padding-left: 0;
     }
@@ -41,21 +42,59 @@
     }
 
     .banner-left {
-        width: -webkit-fill-available;
-        background-image: url(./images/Group\ 14.png);
-        background-size: cover;
+        width: auto;
+        margin-left: 18px;
+        background-size: contain;
+        height: 54vh;
+        padding: 9px 0;
+    }
 
+    .banner-content {
+        margin-left: initial;
+        margin-top: 20px;
+    }
+
+    .play {
+        color: #0B0223;
+        /* text-align: center; */
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .goat {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .banner-list i {
+    margin: 6px 6px;
+    font-size: 8px;
+}
+
+    .btn-primary {
+        padding: 13px 18px;
     }
 
     .btn-one {
-        margin-right: 30px;
-        margin-top: 41px;
-        margin-left: 30px;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-left: auto;
     }
+
+    .btn-two {
+    margin-top: 22px;
+}
 
     p.banner-list {
         display: flex;
         margin-left: 20px;
+        align-items: center;
     }
 
     .banner-2 {
@@ -137,15 +176,19 @@
     }
 
     img.parent {
-        margin-left: 51px;
-        max-width: 100%;
+        margin-left: 95px;
+        max-width: 65%;
         height: auto;
+    }
+
+    .right-3-image {
+        margin-top: 20px;
     }
 
     .right-3-child {
         width: 220px;
         position: relative;
-        bottom: 156px;
+        bottom: 125px;
     }
 
     img.child {
