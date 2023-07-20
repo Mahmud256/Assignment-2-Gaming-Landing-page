@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    padding: 15px 80px; 
+    padding: 15px 80px;
 }
 
 .btn-primary {
@@ -254,6 +254,54 @@ p.banner-list {
     margin: 30px 0;
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay i {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.watch {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
 .banner-3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -377,7 +425,8 @@ img.parent {
     color: #fff;
 }
 
-.list-last ul a, .footer-copy {
+.list-last ul a,
+.footer-copy {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-size: 1rem;
@@ -391,3 +440,4 @@ img.parent {
 }
 
 /* ----------Footer---------- */
+
